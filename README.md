@@ -148,7 +148,11 @@ npm test -- src/path/to/file.test.js
 - Add server-side pagination (`limit` + `skip` or cursor-based).
 - Add rate limiting (e.g. `express-rate-limit`) on auth endpoints.
 - Add input validation (e.g. `zod` or `express-validator`) — currently none exists server-side.
+- Integrate a real payment gateway (Stripe, Razorpay).
+- Add server-side tests (Jest + Supertest).
 - Add a `.nvmrc` and `engines` field to lock Node version.
 - Parameterise the client's API `baseURL` via `REACT_APP_API_URL` environment variable.
+- Add Docker + docker-compose for one-command local setup.
 - Improve accessibility (missing `alt` on images, no ARIA labels on icon buttons).
+- Add CI/CD (GitHub Actions) for lint + test on PR.
 
